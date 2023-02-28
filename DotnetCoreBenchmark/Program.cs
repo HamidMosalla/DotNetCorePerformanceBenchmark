@@ -1,4 +1,10 @@
 ﻿using BenchmarkDotNet.Running;
 using DotnetCoreBenchmark.Benchmarks;
-// dotnet run -c Release // run in the command line
-var summary = BenchmarkRunner.Run<Md5VsSha256>();
+
+
+ //dotnet run -c Release // run in the command line
+
+
+
+ // BenchmarkRunner.Run<Md5VsSha256>();
+ BenchmarkRunner.Run<LinqPerformanceInDotNet7>();
